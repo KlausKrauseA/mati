@@ -1,0 +1,7 @@
+.bg-primary {
+    border: 2px solid blue;
+    height: 300px; /* Set the height of the square */
+    width: 300px; /* Set the width of the square */
+    min-height: 300px; /* Ensure it stays a square regardless of content */
+    min-width: 300px; /* Ensure it stays a square regardless of content */
+  }

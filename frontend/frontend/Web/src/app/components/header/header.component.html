@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TempoTrack</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Cambios generales */
+    body {
+      background-color: #ffffff; /* Cambia el color de fondo de todo el cuerpo */
+      color: #212529; /* Cambia el color de texto predeterminado */
+    }
+
+    /* Encabezado */
+    .header {
+      background-color: #f8f9fa; /* Cambia el color de fondo del encabezado */
+      border-bottom: 1px solid #dee2e6; /* Agrega borde inferior al encabezado */
+      padding: 10px 0; /* Añade espacio interno al encabezado */
+    }
+
+    /* Enlaces de navegación */
+    .nav-link {
+      color: #000000; /* Cambia el color de los enlaces de navegación */
+    }
+
+    .nav-link:hover {
+      color: #007bff; /* Cambia el color de los enlaces de navegación al pasar el mouse */
+    }
+
+    /* Textos dentro de los elementos de lista */
+    .nav li {
+      color: #ffffff; /* Cambia el color del texto dentro de los elementos de lista */
+    }
+  </style>
+</head>
+<body>
+  <header class="p-3 mb-3 border-bottom header">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+          <span class="fw-bold me-2">TempoTrack</span>
+          <svg class="bi me-2" width="48" height="40" role="img" aria-label="Bootstrap">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="top-trabajadores.html" class="px-2 link-dark nav-link">Top Trabajadores</a></li>
+          <li><a href="editar.html" class="px-2 link-dark nav-link">Editar</a></li>
+          <li><a href="ayuda.html" class="px-2 link-dark nav-link">Ayuda</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="dropdown text-end">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="https://user-images.githubusercontent.com/522079/90506845-e8420580-e122-11ea-82ca-31087fc8486c.png" alt="mdo" width="32" height="32" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="#">New project...</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Scripts de Bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

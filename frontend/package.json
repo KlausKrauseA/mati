@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@angular/core": "^18.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9"
+  }
+}
